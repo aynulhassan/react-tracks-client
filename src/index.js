@@ -9,7 +9,7 @@ import Auth from './components/Auth'
 
 
 const client = new ApolloClient({
-    uri: "http://aynulhassan.pythonanywhere.com/graphql/",
+    uri: "https://aynulhassan.pythonanywhere.com/graphql/",
     fetchOptions:{
         credentials:"include"
     },
